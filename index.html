@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restuarent</title>
+    <link rel="icon" type="image/png" href="images/title.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand fw-bold" href="#">Akshaya</a> -->
+      <img src="images/log0_head.png" alt="" style="width: 100px;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#carouselExampleIndicators">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#order">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reserve">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <!--  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item bg-black "  href="#about">About us</a></li>
+              <li><a class="dropdown-item bg-black "  href="#contact">  Contact us</a></li>
+
+              <li><a class="dropdown-item bg-black " href="#carouselExampleIndicators">Parking Slot</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item bg-black "  href="#complaints">  Complaints</a></li>
+
+              <li><a class="dropdown-item bg-black " href="#">Something else here</a></li>
+
+            </ul>
+          </li>-->
+          <!-- <li class="nav-item"> 
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+           </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <!-- slideshow -->
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/logo.jpg" class="slide d-block  w-100  " alt="...">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="images/non.jpg" class="slide d-block w-100 " alt="...">
+        
+      </div>
+      <div class="carousel-item text-center">
+        <img src="images/park1.jpg" class="slide d-block w-100 " alt="...">
+        <h5 class="text-white-50 position-absolute bottom-50 start-50 translate-middle">Parking Available</h5>
+        <button class="btn btn-outline-light position-absolute top-50 start-50 translate-middle" >Save Slot</button>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- scrollin -->
+  <div class="bg-dark">
+<marquee>
+<h6 class="order text-warning m-2 ">Satisfy Your Cravings Instantly - Place Your Order!</h6>
+</marquee>
+</div>
+
+<!-- container -->
+
+<div class="container-fluid   bg-body-secondary" id="order" style="height:auto;">
+
+  <!-- row-1 -->
+  <div class="row m-5 mt-0">
+
+  <h2 class="text-uppercase">Vegetarian</h2>
+    <div class="col-md-3">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class=" card-body  rounded-2">
+          <img  src="images/dossaa.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Dosa</h5>
+<p class="text-warning">Crispy Indulgence 🥞</p>
+<p class="text-secondary fw-medium">15.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 ">
+      <div class=" card    text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body    rounded-2">
+          <img  src="images/IDLI.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Idli</h5>
+<p class="text-warning">Fluffy Pillows 🍚😋</p>
+<p class="text-secondary fw-medium">10.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body   rounded-2">
+          <img  src="images/msd.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">MasalDosa</h5>
+<p class="text-warning">Flavorful Fusion🌶️🥞</p>
+<p class="text-secondary fw-medium">50.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body   rounded-2">
+          <img  src="images/putt.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Putt</h5>
+<p class="text-warning">Coconut Harmony🥥🎶
+</p>
+<p class="text-secondary fw-medium">20.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- row-2 -->
+  <div class="row m-5">
+
+  <h2>BIRIYANI</h2>
+
+    <div class="col-md-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body    rounded-2">
+          <img  src="images/biriyani.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light"> Chicken Biriyani</h5>
+<p class="text-warning"> Flavorful Rice Medley😋</p>
+<p class="text-secondary fw-medium">150.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body   rounded-2">
+          <img  src="images/egg_biri.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Egg Biriyani</h5>
+<p class="text-warning">Eggcellent Flavors!</p>
+<p class="text-secondary fw-medium">150.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body   rounded-2">
+          <img  src="images/beef_biriyani" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Beef Biriyani</h5>
+<p class="text-warning">Rich Savoryness🥩</p>
+<p class="text-secondary fw-medium">150.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body   rounded-2">
+          <img  src="images/veg_biri.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Veg Biriyani</h5>
+<p class="text-warning">Veggie Delight" 🌿😋</p>
+<p class="text-secondary fw-medium">120.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- row 5 for click for more -->
+<div class="row"> 
+  <div class="col-md-11 text-center  ">
+
+
+  <button class="btn btn-primary " data-bs-toggle="collapse" type="button" data-bs-target="#col1">Click for more Items</button>
+</div>
+</div>
+
+
+<!-- click more end -->
+
+</div>
+</div>
+<!-- container -->
+
+<div class="container-fluid  collapse  bg-body-secondary"  style="height:auto;" id="col1"  data-bs-toggle="collapse">
+<!-- row-3 -->
+<div class="row m-5 mt-0">
+
+  <h2 class="text-uppercase">Special</h2>
+
+    <div class="col-md-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body   rounded-2">
+          <img  src="images/alfam.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Alfaham</h5>
+<p class="text-warning">#GrilledGoodness🍗✨</p>
+<p class="text-secondary fw-medium">180.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body    rounded-2">
+          <img  src="images/noodles.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Noodles</h5>
+<p class="text-warning">Noodlicious Delight🍜</p>
+<p class="text-secondary fw-medium">150.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body   rounded-2">
+          <img  src="images/fried_rice.jpg" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Fried Rice</h5>
+<p class="text-warning">Golden Grain Delight🍛</p>
+<p class="text-secondary fw-medium">180.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3 ">
+      <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+        <div class="boom  card-body   rounded-2">
+          <img  src="images/mandhi.avif" alt="" class="rounded-2 w-100">
+<h5 class="card-title text-light">Kuzhi Mandhi</h5>
+<p class="text-warning">Spicy Yemeni Elegance🌶️</p>
+<p class="text-secondary fw-medium">200.RS</p>
+<p></p>
+<button class="now btn btn-success">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- row-4 -->
+    <div class="row m-5 mb-0"> 
+
+      <h2 class="text-uppercase">Curry</h2>
+    
+        <div class="col-md-3 ">
+          <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+            <div class="boom  card-body   rounded-2">
+              <img  src="images/kadala.jpeg" alt="" class="rounded-2 w-100">
+    <h5 class="card-title text-light">Kadala Curry</h5>
+    <p class="text-warning">Bean Bonanza" 🥣🌟</p>
+    <p class="text-secondary fw-medium">180.RS</p>
+    <p></p>
+    <button class="now btn btn-success">Order now</button>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="col-md-3 ">
+          <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+            <div class="boom  card-body    rounded-2">
+              <img  src="images/chicken_curry.jpeg" alt="" class="rounded-2 w-100">
+    <h5 class="card-title text-light">Chcken Curry</h5>
+    <p class="text-warning">Poultry Perfection🍗🍛</p>
+    <p class="text-secondary fw-medium">150.RS</p>
+    <p></p>
+    <button class="now btn btn-success">Order now</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-3 ">
+          <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+            <div class="boom  card-body   rounded-2">
+              <img  src="images/mutta.jpeg" alt="" class="rounded-2 w-100">
+    <h5 class="card-title text-light">Mutta Curry</h5>
+    <p class="text-warning">Eggstatic Delight🥚😋</p>
+    <p class="text-secondary fw-medium">180.RS</p>
+    <p></p>
+    <button class="now btn btn-success">Order now</button>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="col-md-3 ">
+          <div class=" card   text-center text-capitalize" style="width: 230px; height: auto;">
+            <div class="boom  card-body   rounded-2">
+              <img  src="images/beef_curry.jpeg" alt="" class="rounded-2 w-100">
+    <h5 class="card-title text-light">Beef Curry</h5>
+    <p class="text-warning">Hearty Beefiness🥩🍛</p>
+    <p class="text-secondary fw-medium">200.RS</p>
+    <p></p>
+    <button class="now btn btn-success">Order now</button>
+            </div>
+          </div>
+        </div>
+<!--  row 5 for click for more  -->
+    <div class="row m-3"> 
+        <div class="col-md-11 text-center  ">
+ 
+
+          <button class="btn btn-outline-dark " data-bs-toggle="collapse" type="button" data-bs-target="#col1">close</button>
+        </div>
+  </div>
+
+  
+</div>
+
+</div>
+
+
+<!-- RESERVATION TABLE -->
+
+<div class="container-fluid bg-body-secondary " id="reserve">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card m-5 overflow-hidden" >
+        <img src="images/res.jpg" alt="" class="w-100">
+        <div class="card-body bg-transparent position-absolute  ">
+
+
+          <button class="btn  btn-sm btn-outline-light start-50" >Confirm</button>
+          <h3 class="text-light text-md-center">Reserve a Table now</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- complaints -->
+
+<div class="container-fluid bg-dark m-0 p-3 " id="complaints">
+
+ 
+  <p class="text-light">Speak up and be heard! Register your complaints with us—we're here to listen and make it right. 💬✨ 
+     <button class="btn btn-danger"   data-bs-toggle="collapse" type="button" data-bs-target="#col2">complaints</button></p>
+  <div class="container collapse" id="col2">
+    <div class="row">
+      <div class="col6">
+        <form>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label text-light">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+       
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+              
+              <div class="mb-3">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Speak up">
+              </div>
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+ 
+
+
+<!-- footer -->
+<div class="container-fluid bg-black">
+  <div class="row">
+    <div class="col-md-3 m-md-4">
+    <div class="card bg-black">
+      <div class="card body bg-black">
+        <h6 class="text-warning" id="about">About us</h6>
+       <p class="text-white-50">The word " fresh" conjures up a variety of traits, almost all of which apply to Hotel Akshaya, a unique restaurant in the cultural of Kerala,</p>
+     
+     <a  href="#" class="text-decoration-underline text-warning-emphasis   " >Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 m-md-4">
+    <div class="card bg-black">
+      <div class="card body bg-black">
+        <h6 class="text-warning" id="contact">Contact info</h6>
+       <p class="text-white-50 "> 0487 898 1865, 8763 47 55 55 info@hotelakshayathrissur.com Hotel Akshaya, Punkunnam, Thrissur, Kerala 680882</p>
+     <a  href="#" class="text-decoration-underline text-warning-emphasis " >Get in Touch</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 m-md-4">
+    <div class="card bg-black">
+      <div class="icon card-body bg-black text-end">
+        
+     
+          <h6 class="text-warning">Follow us</h6>
+          <a href=""><i  class="bi bi-facebook mx-2 "></i></a>
+          <a href=""><i class="bi bi-whatsapp mx-2"></i></a>
+          <a href=""><i class="bi bi-instagram mx-2"></i></a>
+          
+       
+      </div>
+    </div>
+  </div>
+  
+
+
+  </div>
+</div>
+
+
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.js"></script>
+    
+</body>
+</html>

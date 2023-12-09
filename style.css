@@ -1,0 +1,29 @@
+
+.navbar a{
+    color: gold;
+
+}
+.navbar a:hover{
+    color: white;
+    }
+    
+
+.card-body{
+    background-color: rgb(27, 27, 27)
+}
+.card-body:hover{
+    background-color: rgb(27, 20, 20)  ;
+
+}
+.card-body img:hover{
+    transform: scale(1.015);
+
+}
+
+
+.icon {
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+  }
+
+  
